@@ -1,0 +1,21 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/CS/C++/schoolStuff/CS-318/src/main/Cpp/HelloWorld/HelloWorld.cpp" "C:/CS/C++/schoolStuff/CS-318/cmake-build-debug/CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src/main/Cpp/HelloWorld"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

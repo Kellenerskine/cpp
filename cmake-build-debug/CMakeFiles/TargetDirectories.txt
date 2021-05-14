@@ -1,0 +1,3 @@
+C:/CS/C++/schoolStuff/CS-318/cmake-build-debug/CMakeFiles/CS_318.dir
+C:/CS/C++/schoolStuff/CS-318/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CS/C++/schoolStuff/CS-318/cmake-build-debug/CMakeFiles/rebuild_cache.dir
