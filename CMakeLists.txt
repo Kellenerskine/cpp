@@ -10,6 +10,10 @@ add_executable(CS_318
         src/HelloWorld/HelloWorld.cpp
         )
 add_executable(CS_319
-        src/SomethingTesting/testingSomething.cpp
         src/SomethingTesting/testingSomething.h
+        src/SomethingTesting/testingSomething.cpp
+        )
+add_executable(CS_320
+        src/AnotherRandom/randomStuff.cpp
+        src/AnotherRandom/randomStuff.h
         )

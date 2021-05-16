@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kellen/Desktop/CS/C++/CS318/src/AnotherRandom/randomStuff.cpp
+randomStuff.h
+/Users/kellen/Desktop/CS/C++/CS318/src/AnotherRandom/randomStuff.h
+iostream
+-
+
+/Users/kellen/Desktop/CS/C++/CS318/src/AnotherRandom/randomStuff.h
+

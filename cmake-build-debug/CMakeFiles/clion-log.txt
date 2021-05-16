@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\CS\C++\schoolStuff\CS-318
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kellen/Desktop/CS/C++/CS318
 CMake Warning (dev) in CMakeLists.txt:
   No cmake_minimum_required command is present.  A line of code such as
 
@@ -11,4 +11,4 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/CS/C++/schoolStuff/CS-318/cmake-build-debug
+-- Build files have been written to: /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug
