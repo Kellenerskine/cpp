@@ -3,8 +3,13 @@ project(CS_318)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(src/main/Cpp/HelloWorld)
+include_directories(src)
 
 add_executable(CS_318
-        src/main/Cpp/HelloWorld/HelloWorld.cpp
-        src/main/Cpp/HelloWorld/HelloWorld.h src/main/Cpp/BasicPrinting/basicPrinting.cpp src/main/Cpp/BasicPrinting/basicPrinting.h)
+        src/HelloWorld/HelloWorld.h
+        src/HelloWorld/HelloWorld.cpp
+        )
+add_executable(CS_319
+        src/BasicPrinting/basicPrinting.h
+        src/BasicPrinting/basicPrinting.cpp
+        )

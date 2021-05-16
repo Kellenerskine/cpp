@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CS_319
+
+# Build rule for target.
+CS_319: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CS_319
+.PHONY : CS_319
+
+# fast build rule for target.
+CS_319/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/build
+.PHONY : CS_319/fast
+
+#=============================================================================
 # Target rules for targets named CS_318
 
 # Build rule for target.
@@ -143,34 +156,34 @@ CS_318/fast:
 .PHONY : CS_318/fast
 
 # target to build an object file
-src/main/Cpp/BasicPrinting/basicPrinting.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o
-.PHONY : src/main/Cpp/BasicPrinting/basicPrinting.o
+src/BasicPrinting/basicPrinting.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/src/BasicPrinting/basicPrinting.o
+.PHONY : src/BasicPrinting/basicPrinting.o
 
 # target to preprocess a source file
-src/main/Cpp/BasicPrinting/basicPrinting.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.i
-.PHONY : src/main/Cpp/BasicPrinting/basicPrinting.i
+src/BasicPrinting/basicPrinting.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/src/BasicPrinting/basicPrinting.i
+.PHONY : src/BasicPrinting/basicPrinting.i
 
 # target to generate assembly for a file
-src/main/Cpp/BasicPrinting/basicPrinting.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.s
-.PHONY : src/main/Cpp/BasicPrinting/basicPrinting.s
+src/BasicPrinting/basicPrinting.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/src/BasicPrinting/basicPrinting.s
+.PHONY : src/BasicPrinting/basicPrinting.s
 
 # target to build an object file
-src/main/Cpp/HelloWorld/HelloWorld.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o
-.PHONY : src/main/Cpp/HelloWorld/HelloWorld.o
+src/HelloWorld/HelloWorld.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o
+.PHONY : src/HelloWorld/HelloWorld.o
 
 # target to preprocess a source file
-src/main/Cpp/HelloWorld/HelloWorld.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.i
-.PHONY : src/main/Cpp/HelloWorld/HelloWorld.i
+src/HelloWorld/HelloWorld.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.i
+.PHONY : src/HelloWorld/HelloWorld.i
 
 # target to generate assembly for a file
-src/main/Cpp/HelloWorld/HelloWorld.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.s
-.PHONY : src/main/Cpp/HelloWorld/HelloWorld.s
+src/HelloWorld/HelloWorld.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_318.dir/build.make CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.s
+.PHONY : src/HelloWorld/HelloWorld.s
 
 # Help Target
 help:
@@ -181,12 +194,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS_318"
-	@echo "... src/main/Cpp/BasicPrinting/basicPrinting.o"
-	@echo "... src/main/Cpp/BasicPrinting/basicPrinting.i"
-	@echo "... src/main/Cpp/BasicPrinting/basicPrinting.s"
-	@echo "... src/main/Cpp/HelloWorld/HelloWorld.o"
-	@echo "... src/main/Cpp/HelloWorld/HelloWorld.i"
-	@echo "... src/main/Cpp/HelloWorld/HelloWorld.s"
+	@echo "... CS_319"
+	@echo "... src/BasicPrinting/basicPrinting.o"
+	@echo "... src/BasicPrinting/basicPrinting.i"
+	@echo "... src/BasicPrinting/basicPrinting.s"
+	@echo "... src/HelloWorld/HelloWorld.o"
+	@echo "... src/HelloWorld/HelloWorld.i"
+	@echo "... src/HelloWorld/HelloWorld.s"
 .PHONY : help
 
 

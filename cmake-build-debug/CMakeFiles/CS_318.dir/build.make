@@ -76,45 +76,30 @@ include CMakeFiles/CS_318.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CS_318.dir/flags.make
 
-CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o: CMakeFiles/CS_318.dir/flags.make
-CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o: ../src/main/Cpp/HelloWorld/HelloWorld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o -c /Users/kellen/Desktop/CS/C++/CS318/src/main/Cpp/HelloWorld/HelloWorld.cpp
+CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o: CMakeFiles/CS_318.dir/flags.make
+CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o: ../src/HelloWorld/HelloWorld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o -c /Users/kellen/Desktop/CS/C++/CS318/src/HelloWorld/HelloWorld.cpp
 
-CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kellen/Desktop/CS/C++/CS318/src/main/Cpp/HelloWorld/HelloWorld.cpp > CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.i
+CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kellen/Desktop/CS/C++/CS318/src/HelloWorld/HelloWorld.cpp > CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.i
 
-CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kellen/Desktop/CS/C++/CS318/src/main/Cpp/HelloWorld/HelloWorld.cpp -o CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.s
-
-CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o: CMakeFiles/CS_318.dir/flags.make
-CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o: ../src/main/Cpp/BasicPrinting/basicPrinting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o -c /Users/kellen/Desktop/CS/C++/CS318/src/main/Cpp/BasicPrinting/basicPrinting.cpp
-
-CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kellen/Desktop/CS/C++/CS318/src/main/Cpp/BasicPrinting/basicPrinting.cpp > CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.i
-
-CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kellen/Desktop/CS/C++/CS318/src/main/Cpp/BasicPrinting/basicPrinting.cpp -o CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.s
+CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kellen/Desktop/CS/C++/CS318/src/HelloWorld/HelloWorld.cpp -o CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.s
 
 # Object files for target CS_318
 CS_318_OBJECTS = \
-"CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o" \
-"CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o"
+"CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o"
 
 # External object files for target CS_318
 CS_318_EXTERNAL_OBJECTS =
 
-CS_318: CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o
-CS_318: CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o
+CS_318: CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o
 CS_318: CMakeFiles/CS_318.dir/build.make
 CS_318: CMakeFiles/CS_318.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CS_318"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CS_318"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS_318.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

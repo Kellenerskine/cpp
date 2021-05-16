@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CS_318.dir/src/main/Cpp/BasicPrinting/basicPrinting.o"
-  "CMakeFiles/CS_318.dir/src/main/Cpp/HelloWorld/HelloWorld.o"
+  "CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o"
   "CS_318"
   "CS_318.pdb"
 )
