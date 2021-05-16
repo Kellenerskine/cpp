@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CS_319.dir/src/BasicPrinting/basicPrinting.o"
-  "CS_319"
+  "CMakeFiles/CS_319.dir/src/SomethingTesting/testingSomething.obj"
+  "CS_319.exe"
+  "CS_319.exe.manifest"
   "CS_319.pdb"
+  "libCS_319.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

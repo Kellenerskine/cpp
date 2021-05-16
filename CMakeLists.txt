@@ -9,3 +9,7 @@ add_executable(CS_318
         src/HelloWorld/HelloWorld.h
         src/HelloWorld/HelloWorld.cpp
         )
+add_executable(CS_319
+        src/SomethingTesting/testingSomething.cpp
+        src/SomethingTesting/testingSomething.h
+        )

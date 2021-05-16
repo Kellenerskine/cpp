@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.o"
-  "CS_318"
+  "CMakeFiles/CS_318.dir/src/HelloWorld/HelloWorld.obj"
+  "CS_318.exe"
+  "CS_318.exe.manifest"
   "CS_318.pdb"
+  "libCS_318.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
