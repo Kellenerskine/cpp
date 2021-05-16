@@ -17,50 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CS_319">
-				<Option output="/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CS_319" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/kellen/Desktop/CS/C++/CS318/src"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS_319"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CS_319/fast">
-				<Option output="/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CS_319" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/kellen/Desktop/CS/C++/CS318/src"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS_319/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug"/>
 				<Option type="4"/>
@@ -126,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kellen/Desktop/CS/C++/CS318/src/BasicPrinting/basicPrinting.cpp">
-			<Option target="CS_319"/>
-		</Unit>
-		<Unit filename="/Users/kellen/Desktop/CS/C++/CS318/src/BasicPrinting/basicPrinting.h">
-			<Option target="CS_319"/>
-		</Unit>
 		<Unit filename="/Users/kellen/Desktop/CS/C++/CS318/src/HelloWorld/HelloWorld.cpp">
 			<Option target="CS_318"/>
 		</Unit>

@@ -72,7 +72,6 @@ CMAKE_BINARY_DIR = /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CS_319.dir/all
 all: CMakeFiles/CS_318.dir/all
 
 .PHONY : all
@@ -83,37 +82,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CS_319.dir/clean
 clean: CMakeFiles/CS_318.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CS_319.dir
-
-# All Build rule for target.
-CMakeFiles/CS_319.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CS_319"
-.PHONY : CMakeFiles/CS_319.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CS_319.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CS_319.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CS_319.dir/rule
-
-# Convenience name for target.
-CS_319: CMakeFiles/CS_319.dir/rule
-
-.PHONY : CS_319
-
-# clean rule for target.
-CMakeFiles/CS_319.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_319.dir/build.make CMakeFiles/CS_319.dir/clean
-.PHONY : CMakeFiles/CS_319.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CS_318.dir

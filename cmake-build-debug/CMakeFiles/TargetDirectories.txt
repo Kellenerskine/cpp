@@ -1,4 +1,3 @@
-/Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles/CS_319.dir
 /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/kellen/Desktop/CS/C++/CS318/cmake-build-debug/CMakeFiles/CS_318.dir
